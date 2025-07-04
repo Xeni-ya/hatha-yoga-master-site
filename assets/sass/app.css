@@ -431,7 +431,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.footer .footer__container, .section-reviews .section-reviews__container {
+.footer .footer__container, .section-reviews .section-reviews__container, .background-hero .hero {
   max-width: 1460px;
   margin: 0 auto;
   padding: 0 20px;
@@ -552,7 +552,7 @@ a {
   letter-spacing: 0;
   color: rgba(7, 36, 43, 0.9);
 }
-.background-hero .hero .hero__content {
+.background-hero .hero__content {
   max-width: 1440px;
   display: flex;
   flex-direction: row;
@@ -571,6 +571,7 @@ a {
   font-weight: 400;
   font-style: italic;
   font-size: 2.5rem;
+  line-height: 100%;
   letter-spacing: 0;
 }
 .background-hero .hero__text-one {
@@ -581,13 +582,14 @@ a {
 }
 .background-hero .hero__img {
   position: relative;
-  width: 697px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 697px;
 }
 .background-hero .hero__img img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  position: relative;
   z-index: 1;
   border-radius: 50px;
 }
@@ -595,20 +597,42 @@ a {
   position: absolute;
   top: 25px;
   right: 0;
-  padding: 8px 15px;
+  padding: 20px 25px;
   background-color: rgb(217, 217, 217);
   color: rgba(7, 36, 43, 0.74);
   font-family: "Island Moments", sans-serif;
   font-weight: 400;
   font-size: 1.25rem;
+  line-height: 100%;
   letter-spacing: 0;
   border: none;
-  border-radius: 50px;
+  border-radius: 25px;
   cursor: pointer;
   z-index: 2;
 }
 .background-hero .hero__about-button:hover {
   box-shadow: 0 0 12px #8e88fe, 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .background-hero .hero__content {
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+  }
+  .background-hero .hero__text {
+    margin-right: 0;
+    gap: 20px;
+  }
+  .background-hero .hero__img {
+    width: 100%;
+    max-width: 100%;
+  }
+  .background-hero .hero__img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .section-benefits {
