@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+
+assets/styles/style.css
+assets/styles/style.css.map
+
+assets/styles/about-me.css
+assets/styles/about-me.css.map.DS_Store
+.DS_Store
+.DS_Store
+find . -name "*.DS_Store" -delete
+
+
