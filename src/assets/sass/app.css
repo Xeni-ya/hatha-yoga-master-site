@@ -856,10 +856,10 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 25px;
+  justify-content: space-between;
 }
 @media (max-width: 1340px) {
   .practices__list {
-    justify-content: space-evenly;
     align-items: center;
     gap: 20px;
   }
