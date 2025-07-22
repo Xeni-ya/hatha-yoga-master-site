@@ -1,13 +1,17 @@
+<div align="center">
+
 # hatha-yoga-master-site
 
-<img alt="Static Badge" src="https://img.shields.io/badge/made%20by-%23itgirlsschool-violet">
-<img alt="Static Badge" src="https://img.shields.io/badge/Dart%20Sass-1.77.8-purple">
-<img alt="Static Badge" src="https://img.shields.io/badge/SCSS-70.8%25-yellow">
-
-<img src="./src/assets/readme/hero.png.png">
+  <img alt="Static Badge" src="https://img.shields.io/badge/made%20by-%23itgirlsschool-violet">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Dart%20Sass-1.77.8-purple">
+  <img alt="Static Badge" src="https://img.shields.io/badge/SCSS-70.8%25-yellow">
 </div>
 
-## Описание
+###
+
+<img src="./src/assets/readme/hero.png"  alt="главный экран сайта">
+
+## Описание:
 
 Сайт разработан для презентации себя и продажи своих практик, где пользователи могут:
 
@@ -15,15 +19,17 @@
 - Совершить оплату.
 - Оставить заявку через Яндекс Формы (данные не сохраняются на сайте).
 
-Это образовательный проект, созданный ученицами школы #itgirlschool.
-
-## О проекте
+## О проекте:
 
 Сайт реализован на препроцессоре Sass. В проекте были использованы следующие технологии:
 
-- Frontend: HTML5, SASS (Flexbox/Grid), JavaScript (ES6+).
+- Frontend:
 
-- Формы: Яндекс Формы (без backend-обработки).
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+- Формы: Яндекс Формы (без backend-обработки)
 
 - Деплой: GitHub Pages, Bget
 
@@ -31,28 +37,22 @@
 
 Также в нем есть рабочая навигация по разделам страницы
 
-Для удобства пользователей реализована кнопка для связи через WhatsApp и кнопка "вверх":
-
-<img src="./assets/readme/button-readme.jpg">
-
-## Что сделали:
-
-- [x] Современный дизайн
-- [x] Адаптивную валидную кроссбраузерную верстку
-- [x] Форматы устройств: в большей степени для телефона, в то числе для компьютера и планшета
-- [x] Простая навигация и интуитивно понятная структура
+Для удобства пользователей реализована кнопка "вверх"
 
 ## Функционал и интерактивность:
 
-- [x] Адаптивность: корректное отображение на всех устройствах.
-- [x] Модальные окна – информация о практиках с описанием и ценой, так же ознакомление с дипломами.
-- [x] Оплата – интеграция платежного шлюза.
-- [x] Форма заявки – отправка данных в Яндекс Формы без хранения на сервере.
-- [x] Динамические кнопки – интерактивные hover-эффекты.
-- [x] Кнопка «back» закрывает страницу и возвращает пользователя на предыдущий экран.
-- [х] Слайдер - для просмотра отзывавов.
+- [x] Адаптивность: корректное отображение на всех устройствах
+- [x] Динамические кнопки – интерактивные hover-эффекты
+      <img src="./src/assets/readme/hover.png"  alt="главный экран сайта">
+- [x] Модальные окна – информация о практиках с описанием и ценой, так же ознакомление с дипломами
+      <img src="./src/assets/readme/modal.png"  alt="главный экран сайта">
+- [x] Оплата – интеграция платежного шлюза
+- [x] Форма заявки – отправка данных в Яндекс Формы без хранения на сервере
+- [x] Кнопка «back» закрывает страницу и возвращает пользователя на предыдущий экран
+- [x] Слайдер - для просмотра отзывавов
+      <img src="./src/assets/readme/slider.png"  alt="главный экран сайта">
 
-## Команда проекта
+## Команда проекта:
 
 [![Contributors](https://contrib.rocks/image?repo=xeni-ya/hatha-yoga-master-site)](https://github.com/xeni-ya/hatha-yoga-master-site/graphs/contributors)
 
