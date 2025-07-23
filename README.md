@@ -1,85 +1,64 @@
+<div align="center">
+
 # hatha-yoga-master-site
 
-## Команды - инструкции по компиляции файлов Sass (SCSS) в CSS
+  <img alt="Static Badge" src="https://img.shields.io/badge/made%20by-%23itgirlsschool-violet">
+  <img alt="Static Badge" src="https://img.shields.io/badge/Dart%20Sass-1.77.8-purple">
+  <img alt="Static Badge" src="https://img.shields.io/badge/SCSS-70.8%25-yellow">
+</div>
 
-```
-sass --watch src/assets/sass/app.scss src/assets/styles/style.css
+###
 
-sass --watch src/assets/sass/about-me.scss src/assets/styles/about-me.css
+<img src="./docs/images/hero.png"  alt="главный экран сайта">
 
-sass --watch src/assets/sass/privacy-policy.scss src/assets/styles/privacy-policy.css
+## Описание:
 
-sass --watch src/assets/sass/offer.scss src/assets/styles/offer.css
-```
+Сайт разработан для презентации себя и продажи своих практик, где пользователи могут:
 
-## Именование веток
+- Ознакомиться с предложенными практиками
+- Совершить оплату
+- Оставить заявку через Яндекс Формы (данные не сохраняются на сайте)
 
-`feat/my-new-great-feature` - с таким префиксом называем ветки фичей, которые добавляют новые блоки, стили, разметку, в общем то, что будет видеть пользователь
+## О проекте:
 
-`chore/package-json` - так называем рутинные ветки, в которые добавляем всякие штуки для разработки, конфигурации, .gitignore и т. п.
+Сайт реализован на препроцессоре Sass. В проекте были использованы следующие технологии:
 
-`fix/footer-position-fix` - так называем багфиксы
+- Frontend:
 
-Название ветки состоит из двух частей, разделённых /. Первая часть - префикс, описана выше. Вторая часть - пара-тройка слов, разделённых дефисом, где описывается, что сделано в этой ветке.
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Рекомендации к именам коммитов
+- Формы: Яндекс Формы (без backend-обработки)
 
-- Тип коммита может быть только в нижнием регистре (`feat`, `fix`, `refactor`, `docs` и т.д.)
-- (\*) - Указывает область изменений.
-  В данном случае \* означает, что изменения касаются всей кодовой базы или не относятся к одной конкретной области.
-  Обычно вместо \* могут быть указаны конкретные модули, файлы или компоненты, например: feat(ui):, feat(api):, feat(auth):.
-- Может использоваться present tense ("add feature" not "added feature")
-- Может использоваться imperative mood ("move cursor to..." not "moves cursor to...")
+- Деплой: GitHub Pages, Bget
 
-#### Примеры имен коммитов
+В проекте есть анимация наведения курсора на кнопки
 
-- `init` - используется для начала проекта/таска. Примеры:
+Также в нем есть рабочая навигация по разделам страницы
 
-```
-init(package): start sprint-1
-init(*): start html-coding task
-```
+Для удобства пользователей реализована кнопка "вверх"
 
-- `feat` - это реализованная новая функциональность из технического задания (добавил поддержку зумирования, добавил footer, добавил карточку продукта). Примеры:
+## Функционал и интерактивность:
 
-```
-feat(*): add basic page layout
-feat(search-input): implement search box
-```
+- [x] Адаптивность: корректное отображение на всех устройствах
+- [x] Динамические кнопки – интерактивные hover-эффекты
+- [x] Модальные окна – информация о практиках с описанием и ценой, так же ознакомление с дипломами
+- [x] Оплата – интеграция платежного шлюза
+- [x] Форма заявки – отправка данных в Яндекс Формы без хранения на сервере
+- [x] Кнопка «back» закрывает страницу и возвращает пользователя на предыдущий экран
+- [x] Слайдер - для просмотра отзывов
 
-- `fix` - исправил ошибку в ранее реализованной функциональности. Примеры:
+###
 
-```
-fix(*): change layout for video items to fix bugs
-fix(header): relayout header for firefox
-```
+<img src="./docs/images/hover.png"  alt="эффект при наведении на кнопку ">
+<img src="./docs/images/modal.png"  alt="модальное окно">
+<img src="./docs/images/slider.png"  alt="галерея отзывов">
 
-- `refactor` - новой функциональности не добавлял / поведения не менял. Файлы в другие места положил, удалил, добавил. Изменил форматирование кода (white-space, formatting, missing semi-colons, etc). Улучшил алгоритм, без изменения функциональности. Примеры:
+## Команда проекта:
 
-```
-refactor(*): change the structure of the project
-refactor(constants): rename vars for better readability
-```
+[![Contributors](https://contrib.rocks/image?repo=xeni-ya/hatha-yoga-master-site)](https://github.com/xeni-ya/hatha-yoga-master-site/graphs/contributors)
 
-- `docs` - используется при работе с документацией/readme проекта. Примеры:
+## Результат:
 
-```
-docs(*): update readme with additional information
-docs(readme): update description of run() method
-```
-
-## Как пользоваться eslint
-
-Выберите js файл, который хотите проверить, например это файл yourfile.js, вбейте команду ниже, если этот файл находится на том же уровне, что и index.html
-
-```jsx
-npx eslint yourfile.js
-```
-
-если файл лежит в какой-то другой директории, то не забудьте прописать до него маршрут при вводе команды. Например, мой файл лежит в папке assets и внутри нее в папке script. Тогда команда будет выглядеть так.
-
-```jsx
-npx eslint assets/script/yourfile.js
-```
-
-После этого в терминале появится поле с ошибками, которые eslint считает критичными. Их надо исправить и запустить команду еще раз
+[Перейти по ссылке 👈 ](https://egoirinavl.ru/)
